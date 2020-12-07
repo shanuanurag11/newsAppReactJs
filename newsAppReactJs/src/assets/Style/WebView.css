@@ -1,0 +1,97 @@
+.web-view{
+    min-width: 345px;
+    max-height: 200px;
+    min-width: 550px;
+}
+
+.active-link:focus {     
+  background-color:#03ACE4 !important;    
+  color:white;
+
+}
+.active-link {     
+  background-color:#03ACE4 !important;    
+  color:white !important;
+
+}
+.mob-view-hdr{
+  margin:'auto' !important;
+ }
+ .error-msg-news{
+   margin-top: 15%;
+   margin-left: 40%;
+   font-family: "Poppins-Medium";
+   font-size: 20px;
+ }
+ .loading-msg{
+  margin-top: 15%;
+  margin-left: 48%;
+  font-family: "Poppins-Medium";
+  font-size: 20px;
+ }
+
+@media only screen and (max-width: 500px) {
+    .web-view{
+        min-width: 330px;
+    max-height: 550px;
+    
+    }
+    .mob-view-padd{
+      padding:10px !important;
+    }
+    .mob-view-hdr{
+      margin:inherit !important;
+    }
+    .error-msg-news{
+      margin-top: 100px;
+      margin-left: 36%;
+    }
+    .loading-msg{
+      margin-left: 30% !important;
+      margin-top: 100px;
+    }
+   
+  }
+
+
+  @media only screen and (max-width: 330px){
+
+.web-view {
+    min-width: 280px;
+}
+  }
+
+  .iframe-one{
+    overflow: scroll !important;
+     overflow-x: scroll !important;
+     overflow-y: scroll !important;
+  }
+
+
+  /* ==============newscard card styling */
+
+.newscard-img{
+  padding:8px;
+  padding-bottom: 4px;
+  border-radius: 10px;
+}
+
+.text-overflow-ellipses{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0.8px !important;
+  
+}
+.text-overflow-ellipses-multi{
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0.8px !important;
+  
+}
+
+  .zoom-1:hover {
+    transform: scale(1.05 );
+    cursor: pointer;
+  }
